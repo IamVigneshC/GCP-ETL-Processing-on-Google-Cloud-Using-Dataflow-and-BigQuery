@@ -116,8 +116,6 @@ Note: If you don't see the usa_names table, try refreshing the page or view the 
 Click on the table then navigate to the Preview tab to see examples of the usa_names data.
 
 
-Build a data ingestion Dataflow pipeline
-
 ### Step 3 - Data transformation
 
 You will now build a Dataflow pipeline with a TextIO source and a BigQueryIO destination to ingest data into BigQuery. More specifically, you will:
@@ -152,11 +150,9 @@ You should see the usa_names_transformed table under the lake dataset.
 Click on the table and navigate to the Preview tab to see examples of the usa_names_transformed data.
 
 Note: If you don't see the usa_names_transformed table, try refreshing the page or view the tables using the classic BigQuery UI.
-Test completed task
-Click Check my progress to verify your performed task.
 
-Build a data transformation Dataflow pipeline
-Step 4 - Data enrichment
+
+### Step 4 - Data enrichment
 You will now build a Dataflow pipeline with a TextIO source and a BigQueryIO destination to ingest data into BigQuery. More specifically, you will:
 
 Ingest the files from Cloud Storage.
@@ -186,12 +182,8 @@ You should see the usa_names_enriched table under the lake dataset.
 
 Click on the table and navigate to the Preview tab to see examples of the usa_names_enriched data.
 
-Note: If you don't see the usa_names_enriched table, try refreshing the page or view the tables using the classic BigQuery UI.
-Test completed task
-Click Check my progress to verify your performed task.
 
-Build a data enrichment Dataflow pipeline
-Step 5 - Data lake to Mart
+### Step 5 - Data lake to Mart
 You will now build a Dataflow pipeline with a TextIO source and a BigQueryIO destination to ingest data into BigQuery. More specifically, you will:
 
 Ingest the files from Cloud Storage.
@@ -221,12 +213,8 @@ You should see the orders_denormalized_sideinput table under the lake dataset.
 
 Click on the table and navigate to the Preview section to see examples of orders_denormalized_sideinput data.
 
-Note: If you don't see the orders_denormalized_sideinput table, try refreshing the page or view the tables using the classic BigQuery UI.
-Test completed task
-Click Check my progress to verify your performed task.
 
-Build a Data lake to Mart Dataflow pipeline
-Step 6 - Data lake to Mart CoGroupByKey
+### Step 6 - Data lake to Mart CoGroupByKey
 You will now build a Dataflow pipeline with a TextIO source and a BigQueryIO destination to ingest data into BigQuery. More specifically, you will:
 
 Ingest the files from Cloud Storage.
@@ -254,8 +242,6 @@ Once your Job Status is Succeeded in the Dataflow Job status screen, navigate to
 
 You should see the orders_denormalized_cogroupbykey table under the lake dataset.
 
-etl_final_tables.png
-
 Click on the table and navigate to the Preview tab to see examples of the orders_denormalized_cogroupbykey data.
 
-Note: If you don't see the orders_denormalized_cogroupbykey table, try refreshing the page or view the tables using the classic BigQuery UI.
+
