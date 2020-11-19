@@ -8,7 +8,6 @@ In the Google Cloud console, on the Navigation menu (nav-menu.png), click IAM & 
 
 Confirm that the default compute Service Account {project-number}-compute@developer.gserviceaccount.com is present and has the editor role assigned. The account prefix is the project number, which you can find on Navigation menu > Home.
 
-check-sa.png
 
 If the account is not present in IAM or does not have the editor role, follow the steps below to assign the required role.
 
